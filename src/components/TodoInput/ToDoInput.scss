@@ -1,0 +1,22 @@
+.todo__input-block {
+	display: flex;
+	justify-content: center;
+	padding-top: 40px;
+	input {
+		padding: 0 5px;
+		font-size: 30px;
+		width: 350px;
+		border: 1px solid #8758ff;
+		outline: none;
+		background: none;
+		color: #fff;
+	}
+	button {
+		background: #8758ff;
+		font-size: 23px;
+		color: #fff;
+		border: none;
+		cursor: pointer;
+		padding: 10px;
+	}
+}

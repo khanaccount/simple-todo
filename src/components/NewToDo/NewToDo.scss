@@ -1,0 +1,30 @@
+.new__todo {
+	padding-top: 20px;
+	h1 {
+		padding-right: 10px;
+		color: white;
+		overflow: hidden;
+	}
+	&_block {
+		display: flex;
+		padding: 0 10px;
+		border-radius: 5px;
+		margin: 0 auto;
+		width: 475px;
+		justify-content: space-between;
+		background: #8758ff;
+	}
+	&-img {
+		align-items: center;
+		display: flex;
+		column-gap: 5px;
+		.img {
+			cursor: pointer;
+			color: white;
+			&:hover {
+				color: black;
+				transition: all 0.4s ease-in-out;
+			}
+		}
+	}
+}
